@@ -1,0 +1,691 @@
+Script started on 2019-02-09 12:42:14-0600
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.1  0.0 225964  9548 ?        Ss   11:05   0:07 /sbin/init splash
+root         2  0.0  0.0      0     0 ?        S    11:05   0:00 [kthreadd]
+root         4  0.0  0.0      0     0 ?        I<   11:05   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        I<   11:05   0:00 [mm_percpu_wq]
+root         7  0.0  0.0      0     0 ?        S    11:05   0:00 [ksoftirqd/0]
+root         8  0.0  0.0      0     0 ?        I    11:05   0:03 [rcu_sched]
+root         9  0.0  0.0      0     0 ?        I    11:05   0:00 [rcu_bh]
+root        10  0.0  0.0      0     0 ?        S    11:05   0:00 [migration/0]
+root        11  0.0  0.0      0     0 ?        S    11:05   0:00 [watchdog/0]
+root        12  0.0  0.0      0     0 ?        S    11:05   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S    11:05   0:00 [cpuhp/1]
+root        14  0.0  0.0      0     0 ?        S    11:05   0:00 [watchdog/1]
+root        15  0.0  0.0      0     0 ?        S    11:05   0:00 [migration/1]
+root        16  0.0  0.0      0     0 ?        S    11:05   0:00 [ksoftirqd/1]
+root        18  0.0  0.0      0     0 ?        I<   11:05   0:00 [kworker/1:0H]
+root        19  0.0  0.0      0     0 ?        S    11:05   0:00 [cpuhp/2]
+root        20  0.0  0.0      0     0 ?        S    11:05   0:00 [watchdog/2]
+root        21  0.0  0.0      0     0 ?        S    11:05   0:00 [migration/2]
+root        22  0.0  0.0      0     0 ?        S    11:05   0:00 [ksoftirqd/2]
+root        24  0.0  0.0      0     0 ?        I<   11:05   0:00 [kworker/2:0H]
+root        25  0.0  0.0      0     0 ?        S    11:05   0:00 [cpuhp/3]
+root        26  0.0  0.0      0     0 ?        S    11:05   0:00 [watchdog/3]
+root        27  0.0  0.0      0     0 ?        S    11:05   0:00 [migration/3]
+root        28  0.0  0.0      0     0 ?        S    11:05   0:00 [ksoftirqd/3]
+root        30  0.0  0.0      0     0 ?        I<   11:05   0:00 [kworker/3:0H]
+root        31  0.0  0.0      0     0 ?        S    11:05   0:00 [cpuhp/4]
+root        32  0.0  0.0      0     0 ?        S    11:05   0:00 [watchdog/4]
+root        33  0.0  0.0      0     0 ?        S    11:05   0:00 [migration/4]
+root        34  0.0  0.0      0     0 ?        S    11:05   0:00 [ksoftirqd/4]
+root        35  0.0  0.0      0     0 ?        I    11:05   0:00 [kworker/4:0]
+root        36  0.0  0.0      0     0 ?        I<   11:05   0:00 [kworker/4:0H]
+root        37  0.0  0.0      0     0 ?        S    11:05   0:00 [cpuhp/5]
+root        38  0.0  0.0      0     0 ?        S    11:05   0:00 [watchdog/5]
+root        39  0.0  0.0      0     0 ?        S    11:05   0:00 [migration/5]
+root        40  0.0  0.0      0     0 ?        S    11:05   0:00 [ksoftirqd/5]
+root        42  0.0  0.0      0     0 ?        I<   11:05   0:00 [kworker/5:0H]
+root        43  0.0  0.0      0     0 ?        S    11:05   0:00 [cpuhp/6]
+root        44  0.0  0.0      0     0 ?        S    11:05   0:00 [watchdog/6]
+root        45  0.0  0.0      0     0 ?        S    11:05   0:00 [migration/6]
+root        46  0.0  0.0      0     0 ?        S    11:05   0:00 [ksoftirqd/6]
+root        48  0.0  0.0      0     0 ?        I<   11:05   0:00 [kworker/6:0H]
+root        49  0.0  0.0      0     0 ?        S    11:05   0:00 [cpuhp/7]
+root        50  0.0  0.0      0     0 ?        S    11:05   0:00 [watchdog/7]
+root        51  0.0  0.0      0     0 ?        S    11:05   0:00 [migration/7]
+root        52  0.0  0.0      0     0 ?        S    11:05   0:00 [ksoftirqd/7]
+root        54  0.0  0.0      0     0 ?        I<   11:05   0:00 [kworker/7:0H]
+root        55  0.0  0.0      0     0 ?        S    11:05   0:00 [cpuhp/8]
+root        56  0.0  0.0      0     0 ?        S    11:05   0:00 [watchdog/8]
+root        57  0.0  0.0      0     0 ?        S    11:05   0:00 [migration/8]
+root        58  0.0  0.0      0     0 ?        S    11:05   0:00 [ksoftirqd/8]
+root        60  0.0  0.0      0     0 ?        I<   11:05   0:00 [kworker/8:0H]
+root        61  0.0  0.0      0     0 ?        S    11:05   0:00 [cpuhp/9]
+root        62  0.0  0.0      0     0 ?        S    11:05   0:00 [watchdog/9]
+root        63  0.0  0.0      0     0 ?        S    11:05   0:00 [migration/9]
+root        64  0.0  0.0      0     0 ?        S    11:05   0:00 [ksoftirqd/9]
+root        66  0.0  0.0      0     0 ?        I<   11:05   0:00 [kworker/9:0H]
+root        67  0.0  0.0      0     0 ?        S    11:05   0:00 [cpuhp/10]
+root        68  0.0  0.0      0     0 ?        S    11:05   0:00 [watchdog/10]
+root        69  0.0  0.0      0     0 ?        S    11:05   0:00 [migration/10]
+root        70  0.0  0.0      0     0 ?        S    11:05   0:00 [ksoftirqd/10]
+root        72  0.0  0.0      0     0 ?        I<   11:05   0:00 [kworker/10:0H]
+root        73  0.0  0.0      0     0 ?        S    11:05   0:00 [cpuhp/11]
+root        74  0.0  0.0      0     0 ?        S    11:05   0:00 [watchdog/11]
+root        75  0.0  0.0      0     0 ?        S    11:05   0:00 [migration/11]
+root        76  0.0  0.0      0     0 ?        S    11:05   0:00 [ksoftirqd/11]
+root        78  0.0  0.0      0     0 ?        I<   11:05   0:00 [kworker/11:0H]
+root        79  0.0  0.0      0     0 ?        S    11:05   0:00 [kdevtmpfs]
+root        80  0.0  0.0      0     0 ?        I<   11:05   0:00 [netns]
+root        81  0.0  0.0      0     0 ?        S    11:05   0:00 [rcu_tasks_kthre]
+root        82  0.0  0.0      0     0 ?        S    11:05   0:00 [kauditd]
+root        86  0.0  0.0      0     0 ?        S    11:05   0:00 [khungtaskd]
+root        87  0.0  0.0      0     0 ?        S    11:05   0:00 [oom_reaper]
+root        88  0.0  0.0      0     0 ?        I<   11:05   0:00 [writeback]
+root        89  0.0  0.0      0     0 ?        S    11:05   0:00 [kcompactd0]
+root        90  0.0  0.0      0     0 ?        SN   11:05   0:00 [ksmd]
+root        91  0.0  0.0      0     0 ?        SN   11:05   0:00 [khugepaged]
+root        92  0.0  0.0      0     0 ?        I<   11:05   0:00 [crypto]
+root        93  0.0  0.0      0     0 ?        I<   11:05   0:00 [kintegrityd]
+root        94  0.0  0.0      0     0 ?        I<   11:05   0:00 [kblockd]
+root       104  0.0  0.0      0     0 ?        I<   11:05   0:00 [ata_sff]
+root       105  0.0  0.0      0     0 ?        I<   11:05   0:00 [md]
+root       106  0.0  0.0      0     0 ?        I<   11:05   0:00 [edac-poller]
+root       107  0.0  0.0      0     0 ?        I<   11:05   0:00 [devfreq_wq]
+root       108  0.0  0.0      0     0 ?        I<   11:05   0:00 [watchdogd]
+root       111  0.0  0.0      0     0 ?        S    11:05   0:00 [kswapd0]
+root       112  0.0  0.0      0     0 ?        S    11:05   0:00 [ecryptfs-kthrea]
+root       154  0.0  0.0      0     0 ?        I<   11:05   0:00 [kthrotld]
+root       155  0.0  0.0      0     0 ?        I<   11:05   0:00 [acpi_thermal_pm]
+root       160  0.0  0.0      0     0 ?        I<   11:05   0:00 [ipv6_addrconf]
+root       169  0.0  0.0      0     0 ?        I<   11:05   0:00 [kstrp]
+root       187  0.0  0.0      0     0 ?        I<   11:05   0:00 [charger_manager]
+root       245  0.0  0.0      0     0 ?        I<   11:05   0:00 [nvme-wq]
+root       246  0.0  0.0      0     0 ?        S    11:05   0:00 [scsi_eh_0]
+root       247  0.0  0.0      0     0 ?        I<   11:05   0:00 [scsi_tmf_0]
+root       248  0.0  0.0      0     0 ?        S    11:05   0:00 [scsi_eh_1]
+root       249  0.0  0.0      0     0 ?        I<   11:05   0:00 [scsi_tmf_1]
+root       250  0.0  0.0      0     0 ?        S    11:05   0:00 [scsi_eh_2]
+root       251  0.0  0.0      0     0 ?        I<   11:05   0:00 [scsi_tmf_2]
+root       252  0.0  0.0      0     0 ?        S    11:05   0:00 [scsi_eh_3]
+root       253  0.0  0.0      0     0 ?        I<   11:05   0:00 [scsi_tmf_3]
+root       254  0.0  0.0      0     0 ?        S    11:05   0:00 [scsi_eh_4]
+root       255  0.0  0.0      0     0 ?        I<   11:05   0:00 [scsi_tmf_4]
+root       256  0.0  0.0      0     0 ?        S    11:05   0:00 [scsi_eh_5]
+root       257  0.0  0.0      0     0 ?        I<   11:05   0:00 [scsi_tmf_5]
+root       264  0.0  0.0      0     0 ?        I<   11:05   0:00 [nvkm-disp]
+root       265  0.0  0.0      0     0 ?        I<   11:05   0:00 [ttm_swap]
+root       267  0.0  0.0      0     0 ?        I    11:05   0:00 [kworker/3:2]
+root       271  0.0  0.0      0     0 ?        I<   11:05   0:00 [kworker/0:1H]
+root       322  0.0  0.0      0     0 ?        S    11:05   0:00 [jbd2/sda3-8]
+root       323  0.0  0.0      0     0 ?        I<   11:05   0:00 [ext4-rsv-conver]
+root       336  0.0  0.0      0     0 ?        I<   11:06   0:00 [kworker/8:1H]
+root       352  0.0  0.0      0     0 ?        I<   11:06   0:00 [kworker/1:1H]
+root       353  0.0  0.0      0     0 ?        I<   11:06   0:00 [kworker/4:1H]
+root       363  0.0  0.1 118380 34828 ?        S<s  11:06   0:00 /lib/systemd/systemd-journald
+root       387  0.1  0.0  49196  7668 ?        Ss   11:06   0:07 /lib/systemd/systemd-udevd
+root       427  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop0]
+root       428  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop1]
+root       429  0.0  0.0      0     0 ?        I<   11:06   0:00 [kworker/7:1H]
+root       431  0.0  0.0      0     0 ?        I<   11:06   0:00 [kworker/10:1H]
+root       432  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop3]
+root       433  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop4]
+root       434  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop5]
+root       435  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop6]
+root       436  0.0  0.0      0     0 ?        I<   11:06   0:00 [kworker/3:1H]
+root       437  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop7]
+root       438  0.0  0.0      0     0 ?        I<   11:06   0:00 [kworker/2:1H]
+root       439  0.0  0.0      0     0 ?        I<   11:06   0:00 [kworker/6:1H]
+root       440  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop8]
+root       441  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop9]
+root       442  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop10]
+root       443  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop11]
+root       444  0.0  0.0      0     0 ?        I<   11:06   0:00 [kworker/11:1H]
+root       445  0.0  0.0      0     0 ?        I<   11:06   0:00 [kworker/9:1H]
+root       446  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop12]
+root       447  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop13]
+root       448  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop14]
+root       449  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop15]
+root       450  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop16]
+root       451  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop17]
+root       452  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop18]
+root       453  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop19]
+root       454  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop20]
+root       455  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop21]
+root       456  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop22]
+root       457  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop23]
+root       458  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop24]
+root       459  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop25]
+root       460  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop26]
+root       461  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop27]
+root       462  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop28]
+root       463  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop29]
+root       464  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop30]
+root       465  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop31]
+root       466  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop32]
+root       467  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop33]
+root       468  0.0  0.0      0     0 ?        S<   11:06   0:00 [loop34]
+root       511  0.0  0.0      0     0 ?        S    11:06   0:00 [irq/140-mei_me]
+root       521  0.0  0.0      0     0 ?        I<   11:06   0:00 [kworker/5:1H]
+root       539  0.0  0.0      0     0 ?        I<   11:06   0:00 [cfg80211]
+root       540  0.0  0.0      0     0 ?        S    11:06   0:03 [irq/141-iwlwifi]
+root       541  0.0  0.0      0     0 ?        I<   11:06   0:00 [kworker/u25:0]
+root       586  0.0  0.0      0     0 ?        I<   11:06   0:00 [kworker/u25:1]
+systemd+   846  0.0  0.0 146100  3236 ?        Ssl  11:06   0:00 /lib/systemd/systemd-timesyncd
+systemd+   847  0.0  0.0  71012  6200 ?        Ss   11:06   0:00 /lib/systemd/systemd-resolved
+message+  1043  0.0  0.0  51644  6012 ?        Rs   11:06   0:01 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root      1073  0.0  0.0 427376  9180 ?        Ssl  11:06   0:00 /usr/sbin/ModemManager
+root      1075  0.0  0.0 186960  9328 ?        Ssl  11:06   0:00 /usr/sbin/thermald --no-daemon --dbus-enable
+root      1078  0.0  0.0 566200 17276 ?        Ssl  11:06   0:01 /usr/sbin/NetworkManager --no-daemon
+root      1083  0.0  0.0  45016  7044 ?        Ss   11:06   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root      1087  0.0  0.0 294736  6924 ?        Ssl  11:06   0:00 /usr/lib/accountsservice/accounts-daemon
+root      1090  0.0  0.0 504336 12508 ?        Ssl  11:06   0:00 /usr/lib/udisks2/udisksd
+root      1111  0.0  0.0  38428  3232 ?        Ss   11:06   0:00 /usr/sbin/cron -f
+root      1114  0.0  0.0 177624 17104 ?        Ssl  11:06   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root      1123  0.0  0.0 110516  3432 ?        Ssl  11:06   0:00 /usr/sbin/irqbalance --foreground
+root      1132  0.1  0.0 1377360 30572 ?       Ssl  11:06   0:06 /usr/lib/snapd/snapd
+root      1135  0.0  0.0  70720  6112 ?        Ss   11:06   0:00 /lib/systemd/systemd-logind
+syslog    1136  0.0  0.0 263036  4900 ?        Ssl  11:06   0:00 /usr/sbin/rsyslogd -n
+avahi     1137  0.0  0.0  47264  3236 ?        Ss   11:06   0:00 avahi-daemon: running [luis-CORSAIR-ONE.local]
+root      1138  0.0  0.0   4552   792 ?        Ss   11:06   0:00 /usr/sbin/acpid
+root      1140  0.0  0.0  36540  4352 ?        Ss   11:06   0:00 /usr/lib/bluetooth/bluetoothd
+avahi     1296  0.0  0.0  47076   336 ?        S    11:06   0:00 avahi-daemon: chroot helper
+root      1406  0.0  0.0 303396  9872 ?        Ssl  11:06   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root      1531  0.0  0.0 194320 20016 ?        Ssl  11:06   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root      1533  0.0  0.1 1992808 39824 ?       Ssl  11:06   0:01 /usr/bin/containerd
+root      1538  0.0  0.0      0     0 ?        I    11:06   0:00 [kworker/9:2]
+root      1594  0.0  0.0 308176  8096 ?        Ssl  11:06   0:00 /usr/sbin/gdm3
+root      1617  0.0  0.0 261552  8268 ?        Sl   11:06   0:00 gdm-session-worker [pam/gdm-launch-environment]
+gdm       1750  0.0  0.0  77112  8332 ?        Ss   11:06   0:00 /lib/systemd/systemd --user
+gdm       1751  0.0  0.0 114044  2668 ?        S    11:06   0:00 (sd-pam)
+gdm       1799  0.0  0.0 197796  5388 tty1     Ssl+ 11:06   0:00 /usr/lib/gdm3/gdm-wayland-session gnome-session --autostart /usr/share/gdm/greeter/autostart
+gdm       1801  0.0  0.0  50348  4552 ?        Ss   11:06   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+gdm       1803  0.0  0.0 632680 13644 tty1     Sl+  11:06   0:00 /usr/lib/gnome-session/gnome-session-binary --autostart /usr/share/gdm/greeter/autostart
+gdm       1826  0.0  0.3 4008984 130944 tty1   Sl+  11:06   0:04 /usr/bin/gnome-shell
+root      1856  0.0  0.2 3589600 67212 ?       Ssl  11:06   0:04 /usr/bin/dockerd -H fd://
+whoopsie  1859  0.0  0.0 388444 12556 ?        Ssl  11:06   0:00 /usr/bin/whoopsie -f
+kernoops  1867  0.0  0.0  56936   420 ?        Ss   11:06   0:00 /usr/sbin/kerneloops --test
+kernoops  1874  0.0  0.0  56936   420 ?        Ss   11:06   0:00 /usr/sbin/kerneloops
+root      1967  0.0  0.0 322528  8880 ?        Ssl  11:07   0:00 /usr/lib/upower/upowerd
+gdm       2176  0.0  0.1 1208516 44824 tty1    Sl+  11:07   0:00 /usr/bin/Xwayland :1024 -rootless -terminate -accessx -core -listen 4 -listen 5 -displayfd 6
+gdm       2219  0.0  0.0 349268  6172 ?        Ssl  11:07   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+gdm       2224  0.0  0.0  49924  4092 ?        S    11:07   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+gdm       2226  0.0  0.0 220760  7008 ?        Sl   11:07   0:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+gdm       2237  0.0  0.0 1448836 12108 ?       Ssl  11:07   0:00 /usr/bin/pulseaudio --daemonize=no
+rtkit     2238  0.0  0.0 183504  2916 ?        SNsl 11:07   0:00 /usr/lib/rtkit/rtkit-daemon
+gdm       2312  0.0  0.0 361360  7840 tty1     Sl   11:07   0:00 ibus-daemon --xim --panel disable
+gdm       2322  0.0  0.0 280744  5968 tty1     Sl   11:07   0:00 /usr/lib/ibus/ibus-dconf
+gdm       2324  0.0  0.1 555748 47012 tty1     Sl   11:07   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+gdm       2327  0.0  0.0 278556  6036 ?        Sl   11:07   0:00 /usr/lib/ibus/ibus-portal
+root      2359  0.0  0.0 296868  6788 ?        Ssl  11:07   0:00 /usr/lib/x86_64-linux-gnu/boltd
+gdm       2365  0.0  0.1 706256 48144 tty1     Sl+  11:07   0:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+gdm       2369  0.0  0.0 278152  5928 tty1     Sl+  11:07   0:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+gdm       2371  0.0  0.1 555360 46436 tty1     Sl+  11:07   0:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+gdm       2372  0.0  0.1 889028 49276 tty1     Sl+  11:07   0:00 /usr/lib/gnome-settings-daemon/gsd-color
+gdm       2375  0.0  0.0 393704 13656 tty1     Sl+  11:07   0:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+gdm       2376  0.0  0.0 283740  5768 tty1     Sl+  11:07   0:00 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+gdm       2377  0.0  0.1 709784 47180 tty1     Sl+  11:07   0:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+gdm       2378  0.0  0.1 1069980 49516 tty1    Sl+  11:07   0:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+gdm       2381  0.0  0.0 201996  4536 tty1     Sl+  11:07   0:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+gdm       2383  0.0  0.1 720568 48400 tty1     Sl+  11:07   0:00 /usr/lib/gnome-settings-daemon/gsd-power
+gdm       2384  0.0  0.0 267004  8756 tty1     Sl+  11:07   0:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+gdm       2387  0.0  0.0 202016  4588 tty1     Sl+  11:07   0:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+gdm       2388  0.0  0.0 275732  4772 tty1     Sl+  11:07   0:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+gdm       2390  0.0  0.0 305104  8212 tty1     Sl+  11:07   0:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+gdm       2392  0.0  0.0 377928  7824 tty1     Sl+  11:07   0:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+gdm       2396  0.0  0.0 332856  7916 tty1     Sl+  11:07   0:00 /usr/lib/gnome-settings-daemon/gsd-sound
+gdm       2400  0.0  0.1 640556 48000 tty1     Sl+  11:07   0:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+gdm       2424  0.0  0.0 187772  5012 ?        Sl   11:07   0:00 /usr/lib/dconf/dconf-service
+root      2428  0.0  0.0 447944 18680 ?        Ssl  11:07   0:02 /usr/lib/packagekit/packagekitd
+gdm       2464  0.0  0.0 204888  5756 tty1     Sl   11:07   0:00 /usr/lib/ibus/ibus-engine-simple
+colord    2510  0.0  0.0 325024 14100 ?        Ssl  11:07   0:00 /usr/lib/colord/colord
+root      2912  0.0  0.0 267744  8464 ?        Sl   11:08   0:00 gdm-session-worker [pam/gdm-password]
+luis      2918  0.0  0.0  77208  8520 ?        Ss   11:08   0:00 /lib/systemd/systemd --user
+luis      2919  0.0  0.0 261640  2784 ?        S    11:08   0:00 (sd-pam)
+luis      2932  0.0  0.0 295472 15560 ?        SLl  11:08   0:04 /usr/bin/gnome-keyring-daemon --daemonize --login
+luis      2936  0.0  0.0 212128  5904 tty2     Ssl+ 11:08   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --session=ubuntu
+luis      2938  4.1  0.2 454384 95520 tty2     Sl+  11:08   3:56 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+luis      2943  0.0  0.0  52416  6900 ?        Ss   11:08   0:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+luis      2946  0.0  0.0 567704 14512 tty2     Sl+  11:08   0:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+luis      3042  0.0  0.0  11304   320 ?        Ss   11:08   0:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu gnome-session --session=ubuntu
+luis      3045  0.0  0.0 349348  6224 ?        Ssl  11:08   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+luis      3050  0.0  0.0  50052  4332 ?        S    11:08   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+luis      3052  0.0  0.0 220704  6928 ?        Sl   11:08   0:01 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+luis      3070  3.5  0.8 4650176 271408 tty2   Sl+  11:08   3:20 /usr/bin/gnome-shell
+luis      3077  0.0  0.0 291964  7112 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfsd
+luis      3082  0.0  0.0 416112  5332 ?        Sl   11:08   0:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+luis      3094  0.0  0.0 1795432 13552 ?       S<l  11:08   0:04 /usr/bin/pulseaudio --start --log-target=syslog
+root      3119  0.0  0.0      0     0 ?        S<   11:08   0:00 [krfcommd]
+luis      3121  0.3  0.0 361736  8128 tty2     Sl   11:08   0:17 ibus-daemon --xim --panel disable
+luis      3125  0.0  0.0 280748  6504 tty2     Sl   11:08   0:00 /usr/lib/ibus/ibus-dconf
+luis      3127  0.0  0.0 344028 20720 tty2     Sl   11:08   0:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+luis      3129  0.0  0.0 278556  5824 ?        Sl   11:08   0:00 /usr/lib/ibus/ibus-portal
+luis      3140  0.0  0.0 689892 20944 ?        Sl   11:08   0:00 /usr/lib/gnome-shell/gnome-shell-calendar-server
+luis      3155  0.0  0.0 306564  9076 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+luis      3160  0.0  0.0 288912  6456 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+luis      3167  0.0  0.0 275992  5320 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+luis      3168  0.0  0.0 1372144 25788 ?       Ssl  11:08   0:00 /usr/lib/evolution/evolution-source-registry
+luis      3172  0.0  0.0 274044  5928 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+luis      3176  0.0  0.0 774296 30364 ?        Sl   11:08   0:00 /usr/lib/gnome-online-accounts/goa-daemon
+luis      3189  0.0  0.0 303356  7392 ?        Sl   11:08   0:00 /usr/lib/gnome-online-accounts/goa-identity-service
+luis      3194  0.0  0.0 378812  7736 ?        Ssl  11:08   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+luis      3199  0.0  0.0 517240 22260 tty2     Sl+  11:08   0:00 /usr/lib/gnome-settings-daemon/gsd-power
+luis      3200  0.0  0.0 349320 10316 tty2     Sl+  11:08   0:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications
+luis      3203  0.0  0.0 423212  5824 tty2     Sl+  11:08   0:00 /usr/lib/gnome-settings-daemon/gsd-rfkill
+luis      3204  0.0  0.0 275732  4964 tty2     Sl+  11:08   0:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy
+luis      3205  0.0  0.0 452836  9520 tty2     Sl+  11:08   0:00 /usr/lib/gnome-settings-daemon/gsd-sharing
+luis      3212  0.0  0.0 451668  7992 tty2     Sl+  11:08   0:00 /usr/lib/gnome-settings-daemon/gsd-smartcard
+luis      3216  0.0  0.0 494608 22044 tty2     Sl+  11:08   0:00 /usr/lib/gnome-settings-daemon/gsd-xsettings
+luis      3218  0.0  0.0 332860  7992 tty2     Sl+  11:08   0:00 /usr/lib/gnome-settings-daemon/gsd-sound
+luis      3225  0.0  0.0 428588 21036 tty2     Sl+  11:08   0:00 /usr/lib/gnome-settings-daemon/gsd-wacom
+luis      3232  0.0  0.0 278156  5940 tty2     Sl+  11:08   0:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings
+luis      3233  0.0  0.0 343760 20264 tty2     Sl+  11:08   0:00 /usr/lib/gnome-settings-daemon/gsd-clipboard
+luis      3235  0.0  0.0 677324 23500 tty2     Sl+  11:08   0:00 /usr/lib/gnome-settings-daemon/gsd-color
+luis      3238  0.0  0.0 469736 13680 tty2     Sl+  11:08   0:00 /usr/lib/gnome-settings-daemon/gsd-datetime
+luis      3243  0.0  0.0 364452  7144 tty2     Sl+  11:08   0:00 /usr/lib/gnome-settings-daemon/gsd-housekeeping
+luis      3248  0.0  0.0 497984 20452 tty2     Sl+  11:08   0:00 /usr/lib/gnome-settings-daemon/gsd-keyboard
+luis      3257  0.0  0.0 1079624 23324 tty2    Sl+  11:08   0:00 /usr/lib/gnome-settings-daemon/gsd-media-keys
+luis      3258  0.0  0.0 278164  5764 tty2     Sl+  11:08   0:00 /usr/lib/gnome-settings-daemon/gsd-mouse
+luis      3285  0.0  0.0 508756 12516 tty2     Sl+  11:08   0:00 /usr/lib/gnome-settings-daemon/gsd-printer
+luis      3318  0.1  0.1 854836 51096 tty2     Sl+  11:08   0:08 nautilus-desktop
+luis      3322  0.0  0.0 271932  6748 tty2     Sl+  11:08   0:00 /usr/lib/gnome-disk-utility/gsd-disk-utility-notify
+luis      3355  0.0  0.0 188032  5288 ?        Sl   11:08   0:00 /usr/lib/dconf/dconf-service
+luis      3359  0.0  0.2 892124 66812 ?        Ssl  11:08   0:00 /usr/lib/evolution/evolution-calendar-factory
+luis      3361  0.1  0.5 6976604 189296 ?      Ssl  11:08   0:07 /home/luis/.dropbox-dist/dropbox-lnx.x86_64-66.4.84/dropbox
+luis      3365  0.0  0.0  49796  2636 ?        Ss   11:08   0:00 /usr/bin/dbus-daemon --syslog --fork --print-pid 5 --print-address 7 --session
+luis      3369  0.0  0.0 204884  6204 tty2     Sl   11:08   0:05 /usr/lib/ibus/ibus-engine-simple
+luis      3376  0.0  0.0 368376  7492 ?        Sl   11:08   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.22 /org/gtk/gvfs/exec_spaw/0
+luis      3401  0.0  0.1 1136140 62856 ?       Sl   11:08   0:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx3359x2 --own-path /org/g
+luis      3410  0.0  0.0 732680 24016 ?        Ssl  11:08   0:00 /usr/lib/evolution/evolution-addressbook-factory
+luis      3423  0.0  0.0 943460 26432 ?        Sl   11:08   0:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory all --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx3410x2 --own-path 
+luis      3476  0.0  0.0 291968  7012 ?        Sl   11:08   0:00 /usr/lib/gvfs/gvfsd
+uuidd     3564  0.0  0.0  35244  1436 ?        Ss   11:08   0:00 /usr/sbin/uuidd --socket-activation
+luis      3579  5.6  1.3 1488200 430904 tty2   SLl+ 11:08   5:18 /opt/google/chrome/chrome
+luis      3585  0.0  0.0  14716   772 tty2     S+   11:08   0:00 cat
+luis      3586  0.0  0.0  14716   840 tty2     S+   11:08   0:00 cat
+root      3587  0.0  0.0  25660  5996 ?        S    11:09   0:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /run/dhclient-wlp7s0.pid -lf /var/lib/NetworkManager/dhclient-ad8b7887-e0b5-48aa-8899-ca02293fbc8
+luis      3644  0.0  0.1 440352 55592 tty2     S+   11:09   0:00 /opt/google/chrome/chrome --type=zygote --enable-crash-reporter=6dcb9c3c-56bb-44b8-836e-4c6629ed5b03,
+luis      3645  0.0  0.0  26648  4336 tty2     S+   11:09   0:00 /opt/google/chrome/nacl_helper
+luis      3648  0.0  0.0 440352 14528 tty2     S+   11:09   0:00 /opt/google/chrome/chrome --type=zygote --enable-crash-reporter=6dcb9c3c-56bb-44b8-836e-4c6629ed5b03,
+luis      3675  2.1  0.5 763252 171796 tty2    Sl+  11:09   2:02 /opt/google/chrome/chrome --type=gpu-process --field-trial-handle=10802400704417804106,17255269023568783382,131072 --enable-crash-reporter=6dcb9c3c-56bb-44b8-836e-4c
+luis      3678  0.5  0.3 585848 110148 tty2    SLl+ 11:09   0:33 /opt/google/chrome/chrome --type=utility --field-trial-handle=10802400704417804106,17255269023568783382,131072 --lang=en-US --service-sandbox-type=network --enable-c
+luis      3880  0.0  0.3 818152 124316 tty2    Sl+  11:09   0:03 /opt/google/chrome/chrome --type=renderer --field-trial-handle=10802400704417804106,17255269023568783382,131072 --service-pipe-token=8807797845829785975 --lang=en-US
+luis      3883  0.2  0.5 930104 174636 tty2    Sl+  11:09   0:16 /opt/google/chrome/chrome --type=renderer --field-trial-handle=10802400704417804106,17255269023568783382,131072 --disable-gpu-compositing --service-pipe-token=120164
+luis      3885  0.0  0.2 879212 76516 tty2     Sl+  11:09   0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=10802400704417804106,17255269023568783382,131072 --disable-gpu-compositing --service-pipe-token=120294
+luis      3886  0.0  0.2 764388 82796 tty2     Sl+  11:09   0:01 /opt/google/chrome/chrome --type=renderer --field-trial-handle=10802400704417804106,17255269023568783382,131072 --disable-gpu-compositing --service-pipe-token=174077
+luis      3888  0.1  0.3 826892 130524 tty2    Sl+  11:09   0:07 /opt/google/chrome/chrome --type=renderer --field-trial-handle=10802400704417804106,17255269023568783382,131072 --disable-gpu-compositing --service-pipe-token=232121
+luis      3980  1.1  0.3 869928 123408 tty2    Sl+  11:09   1:06 /opt/google/chrome/chrome --type=renderer --field-trial-handle=10802400704417804106,17255269023568783382,131072 --disable-gpu-compositing --service-pipe-token=131232
+luis      4097  1.2  0.7 12767752 238560 tty2  Sl+  11:09   1:09 /opt/google/chrome/chrome --type=renderer --field-trial-handle=10802400704417804106,17255269023568783382,131072 --disable-gpu-compositing --service-pipe-token=126351
+luis      4174  0.0  0.5 1331036 179728 tty2   SLl+ 11:09   0:03 /usr/bin/gnome-software --gapplication-service
+luis      4195  0.0  0.0 591628 24836 tty2     Sl+  11:09   0:00 update-notifier
+luis      4199  0.0  0.0      0     0 tty2     Z+   11:09   0:00 [livepatch-notif] <defunct>
+luis      4297  0.3  0.5 891120 196656 tty2    Sl+  11:09   0:20 /opt/google/chrome/chrome --type=renderer --field-trial-handle=10802400704417804106,17255269023568783382,131072 --disable-gpu-compositing --service-pipe-token=540819
+luis      4324  0.0  0.2 778816 92064 tty2     Sl+  11:09   0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=10802400704417804106,17255269023568783382,131072 --disable-gpu-compositing --service-pipe-token=109545
+root      4401  0.0  0.0 554812 20924 ?        Ssl  11:09   0:00 /usr/lib/fwupd/fwupd
+luis      4434  0.1  0.4 2951436 143644 tty2   Sl+  11:09   0:10 /opt/google/chrome/chrome --type=renderer --field-trial-handle=10802400704417804106,17255269023568783382,131072 --disable-gpu-compositing --service-pipe-token=746715
+luis      4452  0.5  0.5 911644 187924 tty2    Sl+  11:09   0:28 /opt/google/chrome/chrome --type=renderer --field-trial-handle=10802400704417804106,17255269023568783382,131072 --disable-gpu-compositing --service-pipe-token=433728
+luis      4521  0.0  0.4 733880 140996 tty2    SNl+ 11:10   0:01 /usr/bin/python3 /usr/bin/update-manager --no-update --no-focus-on-map
+luis      4926  0.0  0.0 787644 31340 tty2     Sl+  11:10   0:00 /usr/lib/deja-dup/deja-dup-monitor
+root      5399  0.0  0.0 107688  8080 ?        Ss   11:11   0:00 /usr/sbin/cupsd -l
+root      5400  0.0  0.0 303520 10892 ?        Ssl  11:11   0:00 /usr/sbin/cups-browsed
+luis      5472  0.5  0.6 898484 217484 tty2    Sl+  11:11   0:32 /opt/google/chrome/chrome --type=renderer --field-trial-handle=10802400704417804106,17255269023568783382,131072 --disable-gpu-compositing --service-pipe-token=114795
+root      5659  0.0  0.0      0     0 ?        S<   11:12   0:00 [loop35]
+luis      5790  0.2  0.5 859420 179276 tty2    Sl+  11:13   0:12 /opt/google/chrome/chrome --type=renderer --field-trial-handle=10802400704417804106,17255269023568783382,131072 --disable-gpu-compositing --service-pipe-token=406127
+luis      5839  0.2  0.4 851252 156784 tty2    Sl+  11:14   0:15 /opt/google/chrome/chrome --type=renderer --field-trial-handle=10802400704417804106,17255269023568783382,131072 --disable-gpu-compositing --service-pipe-token=470067
+luis      5974  0.3  0.4 795968 140212 tty2    Sl+  11:15   0:18 /opt/google/chrome/chrome --type=renderer --field-trial-handle=10802400704417804106,17255269023568783382,131072 --disable-gpu-compositing --service-pipe-token=666072
+luis      5991  0.0  0.1 655768 53656 tty2     Sl+  11:15   0:01 /opt/google/chrome/chrome --type=ppapi --field-trial-handle=10802400704417804106,17255269023568783382,131072 --ppapi-flash-args --lang=en-US --enable-crash-reporter=
+luis      6426  0.0  0.3 803632 117468 tty2    Sl+  11:15   0:04 /opt/google/chrome/chrome --type=renderer --field-trial-handle=10802400704417804106,17255269023568783382,131072 --disable-gpu-compositing --service-pipe-token=972247
+root      6863  0.0  0.0      0     0 ?        I    11:17   0:00 [kworker/8:0]
+root      7014  0.0  0.0      0     0 ?        I    11:18   0:00 [kworker/0:0]
+root      7160  0.0  0.0      0     0 ?        I    11:18   0:02 [kworker/7:0]
+root      7501  0.0  0.0      0     0 ?        I    11:20   0:00 [kworker/10:2]
+luis     10930  0.0  0.0 204480  5736 ?        Ssl  11:36   0:00 /usr/lib/gvfs/gvfsd-metadata
+root     11215  0.0  0.0      0     0 ?        I    11:38   0:00 [kworker/2:0]
+root     11463  0.0  0.0      0     0 ?        I    11:40   0:00 [kworker/1:0]
+luis     11881  0.7  0.1 729476 40140 ?        Rsl  11:43   0:26 /usr/lib/gnome-terminal/gnome-terminal-server
+luis     11972  0.0  0.0  32872  8260 pts/0    Ss   11:43   0:00 bash
+luis     14239  0.0  0.0  32872  8216 pts/2    Ss+  11:53   0:00 bash
+root     15269  0.0  0.0      0     0 ?        I    11:56   0:00 [kworker/0:2]
+root     15437  0.0  0.0      0     0 ?        I    11:57   0:00 [kworker/4:1]
+root     16242  0.0  0.0      0     0 ?        I    12:00   0:00 [kworker/6:2]
+root     17836  0.0  0.0      0     0 ?        I    12:09   0:00 [kworker/9:0]
+root     18162  0.0  0.0      0     0 ?        I    12:11   0:00 [kworker/7:2]
+root     18677  0.0  0.0      0     0 ?        I    12:22   0:00 [kworker/1:1]
+root     18707  0.0  0.0      0     0 ?        I    12:22   0:00 [kworker/3:1]
+root     18708  0.0  0.0      0     0 ?        I    12:22   0:00 [kworker/11:2]
+root     18710  0.0  0.0      0     0 ?        I    12:22   0:00 [kworker/11:4]
+root     18711  0.0  0.0      0     0 ?        I    12:22   0:00 [kworker/u24:2]
+root     19338  0.0  0.0      0     0 ?        I    12:27   0:00 [kworker/u24:3]
+root     19785  0.0  0.0      0     0 ?        I    12:30   0:00 [kworker/6:0]
+luis     20010  3.2  0.7 1137548 259496 tty2   Sl+  12:32   0:18 /opt/google/chrome/chrome --type=renderer --field-trial-handle=10802400704417804106,17255269023568783382,131072 --disable-gpu-compositing --service-pipe-token=120998
+root     20023  0.0  0.0      0     0 ?        I    12:32   0:00 [kworker/2:1]
+root     20113  0.0  0.0      0     0 ?        I    12:33   0:00 [kworker/10:1]
+root     20197  0.0  0.0      0     0 ?        I    12:33   0:00 [kworker/8:1]
+luis     20247 11.6  0.9 1058708 325336 tty2   Sl+  12:34   0:56 /opt/google/chrome/chrome --type=renderer --field-trial-handle=10802400704417804106,17255269023568783382,131072 --disable-gpu-compositing --service-pipe-token=178747
+root     20333  0.0  0.0      0     0 ?        I    12:35   0:00 [kworker/5:2]
+root     20335  0.0  0.0      0     0 ?        I    12:35   0:00 [kworker/5:4]
+luis     20350 12.0  0.8 1018848 272816 tty2   Sl+  12:35   0:50 /opt/google/chrome/chrome --type=renderer --field-trial-handle=10802400704417804106,17255269023568783382,131072 --disable-gpu-compositing --service-pipe-token=766782
+luis     20371  3.5  0.4 893488 160860 tty2    Sl+  12:35   0:14 /opt/google/chrome/chrome --type=renderer --field-trial-handle=10802400704417804106,17255269023568783382,131072 --disable-gpu-compositing --service-pipe-token=174561
+luis     20395  1.3  0.3 789920 108244 tty2    Sl+  12:35   0:05 /opt/google/chrome/chrome --type=renderer --field-trial-handle=10802400704417804106,17255269023568783382,131072 --disable-gpu-compositing --service-pipe-token=144137
+luis     20418  2.5  0.3 851504 131036 tty2    Sl+  12:35   0:10 /opt/google/chrome/chrome --type=renderer --field-trial-handle=10802400704417804106,17255269023568783382,131072 --disable-gpu-compositing --service-pipe-token=116626
+luis     20440 24.4  0.4 903332 147704 tty2    Sl+  12:35   1:42 /opt/google/chrome/chrome --type=renderer --field-trial-handle=10802400704417804106,17255269023568783382,131072 --disable-gpu-compositing --service-pipe-token=119924
+luis     20463  0.0  0.1 709080 50868 tty2     Sl+  12:35   0:00 /opt/google/chrome/chrome --type=renderer --field-trial-handle=10802400704417804106,17255269023568783382,131072 --disable-gpu-compositing --service-pipe-token=128241
+root     20517  0.0  0.0      0     0 ?        I    12:36   0:00 [kworker/u24:1]
+luis     20757  0.0  0.0 433544  8780 ?        Ssl  12:40   0:00 /usr/bin/zeitgeist-daemon
+luis     20765  0.0  0.0 326716 16264 ?        Ssl  12:40   0:00 /usr/lib/zeitgeist/zeitgeist/zeitgeist-fts
+root     20785  0.2  0.0      0     0 ?        I    12:41   0:00 [kworker/7:1]
+root     20812  0.1  0.0      0     0 ?        I    12:41   0:00 [kworker/u24:0]
+luis     20846  0.0  0.0  29352  2608 pts/0    S+   12:42   0:00 script
+luis     20847  0.5  0.0  32876  8048 pts/1    Ss   12:42   0:00 bash -i
+luis     21179 18.6  0.4 1501616 155532 ?      Ssl  12:42   0:00 /snap/vscode/77/usr/share/code/code
+luis     21181  0.3  0.1 377604 42736 ?        S    12:42   0:00 /snap/vscode/77/usr/share/code/code --type=zygote --no-sandbox
+luis     21233 85.0  1.0 2018120 336440 ?      Sl   12:42   0:01 /snap/vscode/77/usr/share/code/code --type=renderer --no-sandbox --disable-features=ColorCorrectRendering --service-pipe-token=8ED99286E8C361DF14D1F9A41EB53EA2 --lan
+luis     21266 43.0  0.4 1234084 135908 ?      Sl   12:42   0:00 /snap/vscode/77/usr/share/code/code --nolazy --inspect=27119 /snap/vscode/77/usr/share/code/resources/app/out/bootstrap-fork --type=extensionHost
+luis     21267 11.0  0.2 1004632 71968 ?       Sl   12:42   0:00 /snap/vscode/77/usr/share/code/code /snap/vscode/77/usr/share/code/resources/app/out/bootstrap-fork --type=watcherService
+luis     21301 12.0  0.1 995416 64092 ?        Sl   12:42   0:00 /snap/vscode/77/usr/share/code/code /snap/vscode/77/usr/share/code/resources/app/out/bootstrap-fork --type=searchService
+luis     21307 55.0  0.3 1049708 108456 ?      Rl   12:42   0:00 /snap/vscode/77/usr/share/code/code /snap/vscode/77/usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js --useInferredProjectPerProjectRoo
+luis     21318 36.0  0.2 989348 87844 ?        Rl   12:42   0:00 /snap/vscode/77/usr/share/code/code /home/luis/.vscode/extensions/dbaeumer.vscode-eslint-1.8.0/server/out/eslintServer.js --node-ipc --clientProcessId=21266
+luis     21386  8.0  0.0      0     0 ?        Z    12:42   0:00 [code] <defunct>
+luis     21423 36.0  0.2 990344 86160 ?        Rl   12:42   0:00 /snap/vscode/77/usr/share/code/code /home/luis/.vscode/extensions/pranaygp.vscode-css-peek-2.2.0/node_modules/vscode-languageclient/lib/utils/electronForkStart /home
+luis     21433 19.0  0.2 1010980 87700 ?       Rl   12:42   0:00 /snap/vscode/77/usr/share/code/code /snap/vscode/77/usr/share/code/resources/app/extensions/node_modules/typescript/lib/typingsInstaller.js --globalTypingsCacheLocat
+luis     21447  0.0  0.0  46772  3684 pts/1    R+   12:42   0:00 ps aux
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ kill -0[K9 2111[K79
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ cat trest.txt
+cat: trest.txt: No such file or directory
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ cat test.txt
+Hello There
+Bye
+Have a nice day
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ ls \lost+found
+ls: cannot access 'lost+found': No such file or directory
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ apropos compress
+bunzip2 (1)          - a block-sorting file compressor, v1.0.6
+bzcat (1)            - decompresses files to stdout
+bzcmp (1)            - compare bzip2 compressed files
+bzdiff (1)           - compare bzip2 compressed files
+bzegrep (1)          - search possibly bzip2 compressed files for a regular expression
+bzexe (1)            - compress executable files in place
+bzfgrep (1)          - search possibly bzip2 compressed files for a regular expression
+bzgrep (1)           - search possibly bzip2 compressed files for a regular expression
+bzip2 (1)            - a block-sorting file compressor, v1.0.6
+bzless (1)           - file perusal filter for crt viewing of bzip2 compressed text
+bzmore (1)           - file perusal filter for crt viewing of bzip2 compressed text
+Dpkg::Compression (3perl) - simple database of available compression methods
+Dpkg::Compression::FileHandle (3perl) - object dealing transparently with file compression
+Dpkg::Compression::Process (3perl) - run compression/decompression processes
+fiascotopnm (1)      - Convert compressed FIASCO image to PGM, or PPM
+fsck.cramfs (8)      - fsck compressed ROM file system
+gunzip (1)           - compress or expand files
+gzexe (1)            - compress executable files in place
+gzip (1)             - compress or expand files
+logrotate (8)        - rotates, compresses, and mails system logs
+logrotate.conf (5)   - rotates, compresses, and mails system logs
+lzcat (1)            - Compress or decompress .xz and .lzma files
+lzcmp (1)            - compare compressed files
+lzdiff (1)           - compare compressed files
+lzegrep (1)          - search compressed files for a regular expression
+lzfgrep (1)          - search compressed files for a regular expression
+lzgrep (1)           - search compressed files for a regular expression
+lzless (1)           - view xz or lzma compressed (text) files
+lzma (1)             - Compress or decompress .xz and .lzma files
+lzmore (1)           - view xz or lzma compressed (text) files
+mkfs.cramfs (8)      - make compressed ROM file system
+mkzftree (1)         - Create a zisofs/RockRidge compressed file tree
+mscompress (1)       - compress data using LZ77 algorithm
+msexpand (1)         - decompress data compressed using mscompress(1) or COMPRESS.EXE
+pack200 (1)          - Packages a JAR file into a compressed pack200 file for web deployment.
+pbmtogo (1)          - convert a portable bitmap into compressed GraphOn graphics
+pbmtopsg3 (1)        - convert PBM images to Postscript with G3 fax compression
+pigz (1)             - compress or expand files
+pnmtofiasco (1)      - Convert a portable anymap to FIASCO compressed file
+precat (1)           - prefix delta compressor for Aspell
+preunzip (1)         - prefix delta compressor for Aspell
+prezip (1)           - prefix delta compressor for Aspell
+prezip-bin (1)       - prefix zip delta word list compressor/decompressor
+spctoppm (1)         - convert an Atari compressed Spectrum file into a portable pixmap
+sputoppm (1)         - convert an Atari uncompressed Spectrum file into a portable pixmap
+uncompress (1)       - compress or expand files
+unlzma (1)           - Compress or decompress .xz and .lzma files
+unpigz (1)           - compress or expand files
+unsquashfs (1)       - tool to uncompress squashfs filesystems
+unxz (1)             - Compress or decompress .xz and .lzma files
+unzip (1)            - list, test and extract compressed files in a ZIP archive
+word-list-compress (1) - word list compressor/decompressor for GNU Aspell
+xz (1)               - Compress or decompress .xz and .lzma files
+xzcat (1)            - Compress or decompress .xz and .lzma files
+xzcmp (1)            - compare compressed files
+xzdiff (1)           - compare compressed files
+xzegrep (1)          - search compressed files for a regular expression
+xzfgrep (1)          - search compressed files for a regular expression
+xzgrep (1)           - search compressed files for a regular expression
+xzless (1)           - view xz or lzma compressed (text) files
+xzmore (1)           - view xz or lzma compressed (text) files
+zcat (1)             - compress or expand files
+zcmp (1)             - compare compressed files
+zdiff (1)            - compare compressed files
+zegrep (1)           - search possibly compressed files for a regular expression
+zfgrep (1)           - search possibly compressed files for a regular expression
+zgrep (1)            - search possibly compressed files for a regular expression
+zip (1)              - package and compress (archive) files
+zless (1)            - file perusal filter for crt viewing of compressed text
+zlib-flate (1)       - raw zlib compression program
+zmore (1)            - file perusal filter for crt viewing of compressed text
+znew (1)             - recompress .Z files to .gz files
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ ls --help
+Usage: ls [OPTION]... [FILE]...
+List information about the FILEs (the current directory by default).
+Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --all                  do not ignore entries starting with .
+  -A, --almost-all           do not list implied . and ..
+      --author               with -l, print the author of each file
+  -b, --escape               print C-style escapes for nongraphic characters
+      --block-size=SIZE      scale sizes by SIZE before printing them; e.g.,
+                               '--block-size=M' prints sizes in units of
+                               1,048,576 bytes; see SIZE format below
+  -B, --ignore-backups       do not list implied entries ending with ~
+  -c                         with -lt: sort by, and show, ctime (time of last
+                               modification of file status information);
+                               with -l: show ctime and sort by name;
+                               otherwise: sort by ctime, newest first
+  -C                         list entries by columns
+      --color[=WHEN]         colorize the output; WHEN can be 'always' (default
+                               if omitted), 'auto', or 'never'; more info below
+  -d, --directory            list directories themselves, not their contents
+  -D, --dired                generate output designed for Emacs' dired mode
+  -f                         do not sort, enable -aU, disable -ls --color
+  -F, --classify             append indicator (one of */=>@|) to entries
+      --file-type            likewise, except do not append '*'
+      --format=WORD          across -x, commas -m, horizontal -x, long -l,
+                               single-column -1, verbose -l, vertical -C
+      --full-time            like -l --time-style=full-iso
+  -g                         like -l, but do not list owner
+      --group-directories-first
+                             group directories before files;
+                               can be augmented with a --sort option, but any
+                               use of --sort=none (-U) disables grouping
+  -G, --no-group             in a long listing, don't print group names
+  -h, --human-readable       with -l and/or -s, print human readable sizes
+                               (e.g., 1K 234M 2G)
+      --si                   likewise, but use powers of 1000 not 1024
+  -H, --dereference-command-line
+                             follow symbolic links listed on the command line
+      --dereference-command-line-symlink-to-dir
+                             follow each command line symbolic link
+                               that points to a directory
+      --hide=PATTERN         do not list implied entries matching shell PATTERN
+                               (overridden by -a or -A)
+      --hyperlink[=WHEN]     hyperlink file names; WHEN can be 'always'
+                               (default if omitted), 'auto', or 'never'
+      --indicator-style=WORD  append indicator with style WORD to entry names:
+                               none (default), slash (-p),
+                               file-type (--file-type), classify (-F)
+  -i, --inode                print the index number of each file
+  -I, --ignore=PATTERN       do not list implied entries matching shell PATTERN
+  -k, --kibibytes            default to 1024-byte blocks for disk usage
+  -l                         use a long listing format
+  -L, --dereference          when showing file information for a symbolic
+                               link, show information for the file the link
+                               references rather than for the link itself
+  -m                         fill width with a comma separated list of entries
+  -n, --numeric-uid-gid      like -l, but list numeric user and group IDs
+  -N, --literal              print entry names without quoting
+  -o                         like -l, but do not list group information
+  -p, --indicator-style=slash
+                             append / indicator to directories
+  -q, --hide-control-chars   print ? instead of nongraphic characters
+      --show-control-chars   show nongraphic characters as-is (the default,
+                               unless program is 'ls' and output is a terminal)
+  -Q, --quote-name           enclose entry names in double quotes
+      --quoting-style=WORD   use quoting style WORD for entry names:
+                               literal, locale, shell, shell-always,
+                               shell-escape, shell-escape-always, c, escape
+  -r, --reverse              reverse order while sorting
+  -R, --recursive            list subdirectories recursively
+  -s, --size                 print the allocated size of each file, in blocks
+  -S                         sort by file size, largest first
+      --sort=WORD            sort by WORD instead of name: none (-U), size (-S),
+                               time (-t), version (-v), extension (-X)
+      --time=WORD            with -l, show time as WORD instead of default
+                               modification time: atime or access or use (-u);
+                               ctime or status (-c); also use specified time
+                               as sort key if --sort=time (newest first)
+      --time-style=STYLE     with -l, show times using style STYLE:
+                               full-iso, long-iso, iso, locale, or +FORMAT;
+                               FORMAT is interpreted like in 'date'; if FORMAT
+                               is FORMAT1<newline>FORMAT2, then FORMAT1 applies
+                               to non-recent files and FORMAT2 to recent files;
+                               if STYLE is prefixed with 'posix-', STYLE
+                               takes effect only outside the POSIX locale
+  -t                         sort by modification time, newest first
+  -T, --tabsize=COLS         assume tab stops at each COLS instead of 8
+  -u                         with -lt: sort by, and show, access time;
+                               with -l: show access time and sort by name;
+                               otherwise: sort by access time, newest first
+  -U                         do not sort; list entries in directory order
+  -v                         natural sort of (version) numbers within text
+  -w, --width=COLS           set output width to COLS.  0 means no limit
+  -x                         list entries by lines instead of by columns
+  -X                         sort alphabetically by entry extension
+  -Z, --context              print any security context of each file
+  -1                         list one file per line.  Avoid '\n' with -q or -b
+      --help     display this help and exit
+      --version  output version information and exit
+
+The SIZE argument is an integer and optional unit (example: 10K is 10*1024).
+Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000).
+
+Using color to distinguish file types is disabled both by default and
+with --color=never.  With --color=auto, ls emits color codes only when
+standard output is connected to a terminal.  The LS_COLORS environment
+variable can change the settings.  Use the dircolors command to set it.
+
+Exit status:
+ 0  if OK,
+ 1  if minor problems (e.g., cannot access subdirectory),
+ 2  if serious trouble (e.g., cannot access command-line argument).
+
+GNU coreutils online help: <http://www.gnu.org/software/coreutils/>
+Full documentation at: <http://www.gnu.org/software/coreutils/ls>
+or available locally via: info '(coreutils) ls invocation'
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ help echo
+echo: echo [-neE] [arg ...]
+    Write arguments to the standard output.
+    
+    Display the ARGs, separated by a single space character and followed by a
+    newline, on the standard output.
+    
+    Options:
+      -n	do not append a newline
+      -e	enable interpretation of the following backslash escapes
+      -E	explicitly suppress interpretation of backslash escapes
+    
+    `echo' interprets the following backslash-escaped characters:
+      \a	alert (bell)
+      \b	backspace
+      \c	suppress further output
+      \e	escape character
+      \E	escape character
+      \f	form feed
+      \n	new line
+      \r	carriage return
+      \t	horizontal tab
+      \v	vertical tab
+      \\	backslash
+      \0nnn	the character whose ASCII code is NNN (octal).  NNN can be
+    		0 to 3 octal digits
+      \xHH	the eight-bit character whose value is HH (hexadecimal).  HH
+    		can be one or two hex digits
+    
+    Exit Status:
+    Returns success unless a write error occurs.
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ echo "U[KLuis Ostsa"[K[K[Ka" | od -An -c
+   L   u   i   s       O   s   t   a  \n
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ echo "Luis Osta">[K > myName.txt
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ rm -rf myName.txt
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ cp test.txt sampleDir/testing.txt
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ mv sampleDir/testing.txt done.txt
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ grep "Hell,[Ko" test.txt
+[01;31m[KHello[m[K There
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ head -n 1 test.tex[K[Kxt
+Hello There
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ he[K[Ktail -n -[K1 test.tex[K[Kxt
+Have a nice day
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ sort test.txt
+Bye
+Have a nice day
+Hello There
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ diff degre[Keees[K[Ks/degrees.c test.txt
+1,28c1,3
+< #include <stdio.h>
+< 
+< #define C "Celsius (C°)"
+< #define F "Fahreinheit (F°)"
+< 
+< #define FDegree "(F°)"
+< #define CDegree "(C°)"
+< 
+< int convertToCelsius(int x);
+< 
+< int main(int argc, const char *argv[]) {
+<     printf("%-20s%16s\n", F, C);
+<     printf("\n");
+< 
+<     int start = 100;
+<     while(start <= 400) {
+<         int celsius = convertToCelsius(start);
+<         printf("%d%-20s%d%-15s\n",start, FDegree, celsius, CDegree);
+<         start++;
+<     }
+< }
+< 
+< int convertToCelsius(int val) {
+<     val -= 32;
+<     val *= 9;
+<     val /= 5;
+<     return val;
+< }
+\ No newline at end of file
+---
+> Hello There
+> Bye
+> Have a nice day
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ find . -type f | grep -o '\.[^./]*$' | sort | uniq
+.c
+.json
+.sample
+.txt
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ tar cbf[K[Kvf folder.tag sampleDir/[1P sampleDir/r sampleDir/[C[C[C[C[C[C[C[C[C[C[C
+sampleDir/
+sampleDir/newFile.txt
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ gzip -r o[Kfolder.tar
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ mv folder.tar.gz /samp[K[K[K[K[KsampleDir/
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ gzip -d sampleDir/folder.tar.gz
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ tar xvfj [K sampleDir/folder.tar
+bzip2: (stdin) is not a bzip2 file.
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ lstar xvfj sampleDir/folder.tar[1P sampleDir/folder.tar
+sampleDir/
+sampleDir/newFile.txt
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ who
+luis     :0           2019-02-09 11:08 (:0)
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ date
+Sat Feb  9 13:36:11 CST 2019
+]0;luis@luis-CORSAIR-ONE: ~/CS_3377[01;32mluis@luis-CORSAIR-ONE[00m:[01;34m~/CS_3377[00m$ exit
+exit
+
+Script done on 2019-02-09 13:36:12-0600

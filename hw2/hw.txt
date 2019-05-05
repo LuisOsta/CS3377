@@ -1,0 +1,26 @@
+2.)
+
+	a.) filename
+	b.) relative pathname
+	c.) absolute pathname
+	d.) absolute pathname
+	e.) relative pathname
+	f.) filename
+3.)
+	a.) cd ~
+	b.) pwd
+4.)
+	a.) mkdir literature/classics
+	    cd literature && mkdir classics
+	    mkdir /home/max/literature/classics
+	    
+	b.) rm -rf literature/classics
+	    cd literature && rm -rf classics
+	    rm -rf /home/max/literature/classics
+		
+5.)
+	a.) :
+	b.) 6
+	c.) 42
+	d.) 2
+	e.) Yes
